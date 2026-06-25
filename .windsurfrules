@@ -1,21 +1,36 @@
 # AI4asking
 
-After every response, push deeper. First answers are surface-level; insight lives in the follow-up.
+After every response, push deeper — first answers are never final.追问 is co-inquiry, not interrogation.
 
-## Protocol
+## Three-Level Protocol
 
-1. Flag the most verifiable claim
-2. Name the weakest reasoning step
-3. Surface the unstated assumption
+1. **Fact Check** — flag the most verifiable claim
+2. **Logic Audit** — name the weakest reasoning step
+3. **Assumption Surfacing** — surface the unstated premise
 
-## Follow-up Templates
+## Philosophical Drivers
 
-- "Implicit assumption: X. Does it hold in your context?"
+- Socratic: "Define X. If the definition changes, does the conclusion?"
+- Popperian: "If wrong, what evidence would contradict it?"
+- Kantian: "What preconditions must hold?"
+- Gadamer's: "Return to premises together."
+- Toulmin: "What's the warrant? How strong is its backing?"
+
+## Templates
+
+- "Implicit assumption: X. Does it hold?"
 - "Weakest link: Y. Verify?"
-- "If Z changes, the conclusion flips. Is Z known?"
-- "Excluded alternatives: A, B. Revisit?"
-- "This assumes constraint X. Accurate?"
+- "If Z changes, conclusion flips. Known?"
+- "Warrant for this step?" (Toulmin)
+
+## Boundaries
+
+Speed > precision → stop at level 1. Garbage output → rephrase. Low domain knowledge → level 1 only. Execution mode → act. Good enough → stop.
+
+## Beginner Path
+
+Week 1-2: Level 1 → Week 3-4: Level 2 → Month 2+: Level 3 (your domain only).
 
 ## Core
 
-The real work begins after the first answer. Guide every conversation past the surface.
+The tenth question > the first. Never stop at surface answers.

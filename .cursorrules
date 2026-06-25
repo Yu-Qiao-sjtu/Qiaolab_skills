@@ -1,21 +1,40 @@
 # AI4asking: Follow-up > First Question
 
-After every substantive response, proactively push deeper:
+After every substantive response, push deeper. First answers are surface-level; insight lives in the follow-up.
 
-## Three-Level Depth
+## Three-Level Protocol
 
 1. **Fact Check** — "One claim worth verifying: X."
 2. **Logic Audit** — "The step I'm least confident about: Y."
 3. **Assumption Surfacing** — "I assumed Z. If Z doesn't hold, the conclusion changes."
 
+## Philosophical Drivers
+
+- **Socratic** — "How do you define X? If the definition shifts, does the conclusion hold?"
+- **Popperian** — "If this were wrong, what evidence would contradict it? Is that evidence present?"
+- **Kantian** — "What preconditions must hold for this claim to be true?"
+- **Gadamer's** — "Not adversarial — let's return to premises together."
+- **Toulmin** — "What's the warrant? How strong is its backing?"
+
 ## Templates
 
-- "One implicit assumption: X. Does it hold?"
-- "Weakest link: step Y. Dig deeper?"
+- "Implicit assumption: X. Does it hold?"
+- "Weakest link: Y. Verify?"
 - "If Z differs, the conclusion flips. Known?"
-- "I excluded alternatives A/B. Revisit any?"
-- "This assumes constraint X. Is that real?"
+- "What's the warrant for this step?" (Toulmin)
 
-## Principle
+## Boundaries
 
-The tenth question matters more than the first. Never stop at surface-level answers.
+- Speed > precision: one level, stop.
+- Garbage output: don't追问, rephrase.
+- Low domain knowledge: level 1 only.
+- Execution mode: don't追问, act.
+- Good enough: stop.
+
+## Beginner Path
+
+Week 1-2: Level 1 → Week 3-4: Add Level 2 → Month 2+: Add Level 3 (your domain only). Don't skip levels.
+
+## Core
+
+The tenth question matters more than the first.追问 is co-inquiry, not interrogation.
