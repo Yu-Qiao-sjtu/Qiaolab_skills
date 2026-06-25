@@ -1,0 +1,290 @@
+======================================================================
+taVNS Term Clustering Analysis Report
+UMAP + HDBSCAN Semantic Clustering
+======================================================================
+
+Total terms: 15,446
+Major clusters: 14
+Minor clusters: 85
+Noise points: 1,470
+
+----------------------------------------------------------------------
+MAJOR CLUSTERS (14 classes)
+----------------------------------------------------------------------
+
+## 脑区与回路
+   Terms: 8,410 | 2025-2026 freq: 4,632 | 2022-2026 freq: 9,071
+   Basic: 0 | Clinical: 0
+   Top terms: secondary outcomes(33) | primary outcome(32) | control group(25) | adverse event(19) | functional connectivity(18)
+
+## 噪声点
+   Terms: 1,470 | 2025-2026 freq: 871 | 2022-2026 freq: 1,559
+   Basic: 0 | Clinical: 0
+   Top terms: pupil dilation(8) | pupil size(8) | visual analogue scale(8) | functional dyspepsia(7) | parasympathetic activity(7)
+
+## 炎症与免疫
+   Terms: 1,248 | 2025-2026 freq: 757 | 2022-2026 freq: 1,317
+   Basic: 0 | Clinical: 0
+   Top terms: locus coeruleus(15) | inflammation(10) | alpha 7nachr(5) | il-1 beta(5) | locus coeruleus-norepinephrine(5)
+
+## 刺激参数与设备
+   Terms: 698 | 2025-2026 freq: 439 | 2022-2026 freq: 824
+   Basic: 0 | Clinical: 0
+   Top terms: electrical stimulation(15) | stimulation(12) | auricular branch(10) | transcranial magnetic stimulation(9) | left ear(7)
+
+## 精神疾病与情绪
+   Terms: 650 | 2025-2026 freq: 375 | 2022-2026 freq: 705
+   Basic: 0 | Clinical: 0
+   Top terms: depression(15) | major depressive disorder(7) | anxiety(6) | depression-like behaviors(5) | drug-resistant epilepsy(5)
+
+## 围术期应用
+   Terms: 628 | 2025-2026 freq: 456 | 2022-2026 freq: 735
+   Basic: 0 | Clinical: 0
+   Top terms: postoperative delirium(11) | postoperative pain(11) | pain management(7) | chronic pain(6) | pain intensity(6)
+
+## 自主神经与心血管
+   Terms: 615 | 2025-2026 freq: 507 | 2022-2026 freq: 904
+   Basic: 0 | Clinical: 0
+   Top terms: heart rate variability(45) | autonomic nervous system(22) | autonomic function(12) | heart rate(10) | autonomic regulation(7)
+
+## 临床试验方法学
+   Terms: 456 | 2025-2026 freq: 455 | 2022-2026 freq: 774
+   Basic: 0 | Clinical: 0
+   Top terms: sham stimulation(42) | sham group(27) | controlled trial(23) | randomized controlled trial(19) | clinical trial(18)
+
+## 其他: vagus nerve, vagus nerve stimulation
+   Terms: 392 | 2025-2026 freq: 286 | 2022-2026 freq: 602
+   Basic: 0 | Clinical: 0
+   Top terms: vagus nerve stimulation(61) | vagus nerve(48) | cardiac vagal activity(4) | vagal nerve stimulation(4) | invasive vagus nerve stimulation(3)
+
+## 卒中与脑损伤
+   Terms: 278 | 2025-2026 freq: 153 | 2022-2026 freq: 284
+   Basic: 0 | Clinical: 0
+   Top terms: stroke(9) | brain injury(4) | neural plasticity(4) | neuroplasticity(4) | traumatic brain injury(4)
+
+## 动物模型
+   Terms: 199 | 2025-2026 freq: 99 | 2022-2026 freq: 198
+   Basic: 0 | Clinical: 0
+   Top terms: rat model(4) | mouse model(3) | 6 mice(2) | autism(2) | noise exposure(2)
+
+## 认知功能
+   Terms: 147 | 2025-2026 freq: 119 | 2022-2026 freq: 217
+   Basic: 0 | Clinical: 0
+   Top terms: neuromodulation(28) | non-invasive neuromodulation technique(10) | brain-derived neurotrophic factor(4) | non-invasive neuromodulation(4) | neuromodulation method(3)
+
+## 神经影像
+   Terms: 130 | 2025-2026 freq: 78 | 2022-2026 freq: 158
+   Basic: 0 | Clinical: 0
+   Top terms: functional near-infrared spectroscopy(9) | functional magnetic resonance imaging(6) | fmri(4) | functional imaging(4) | diffusion tensor imaging(3)
+
+## 睡眠障碍
+   Terms: 125 | 2025-2026 freq: 111 | 2022-2026 freq: 197
+   Basic: 0 | Clinical: 0
+   Top terms: sleep quality(12) | pittsburgh sleep quality index(10) | insomnia(6) | sleep disorders(5) | insomnia severity index(4)
+
+----------------------------------------------------------------------
+MINOR CLUSTERS (85 sub-classes, top 50 shown)
+----------------------------------------------------------------------
+
+ 1. 噪声点: 噪声
+    Terms: 1,470 | 2025-2026 freq: 871
+    Top: pupil dilation(8) | pupil size(8) | visual analogue scale(8) | functional dyspepsia(7) | parasympathetic activity(7)
+
+ 2. 脑区与回路: therapeutic, pharmacological, efficacy
+    Terms: 1,331 | 2025-2026 freq: 802
+    Top: healthy adults(14) | healthy participants(12) | clinical application(11) | therapeutic effects(11) | elderly patients(9)
+
+ 3. 脑区与回路: cognitive, behavioral, auditory
+    Terms: 1,240 | 2025-2026 freq: 705
+    Top: significant difference(17) | cognitive function(16) | significant change(13) | significant improvements(11) | significant reduction(7)
+
+ 4. 脑区与回路: 噪声
+    Terms: 1,073 | 2025-2026 freq: 564
+    Top: underlying mechanism(11) | acute effects(7) | intracortical facilitation(6) | molecular mechanism(4) | small sample size(4)
+
+ 5. 脑区与回路: evidence, insights, design
+    Terms: 1,061 | 2025-2026 freq: 600
+    Top: systematic review(15) | future study(10) | case report(7) | previous study(7) | statistical analysis(7)
+
+ 6. 脑区与回路: brain, functional connectivity, nucleus
+    Terms: 814 | 2025-2026 freq: 406
+    Top: functional connectivity(18) | cortical excitability(8) | neural activity(7) | neural mechanism(7) | prefrontal cortex(5)
+
+ 7. 脑区与回路: week, follow, month
+    Terms: 779 | 2025-2026 freq: 485
+    Top: secondary outcomes(33) | primary outcome(32) | control group(25) | consecutive day(11) | primary outcomes(10)
+
+ 8. 炎症与免疫: cholinergic, weight, acid
+    Terms: 540 | 2025-2026 freq: 329
+    Top: alpha 7nachr(5) | high-fat diet(4) | nicotinic acetylcholine receptor(4) | oxidative stress(4) | signaling pathway(4)
+
+ 9. 刺激参数与设备: stimulation, transcutaneous, brain
+    Terms: 520 | 2025-2026 freq: 341
+    Top: electrical stimulation(15) | stimulation(12) | auricular branch(10) | transcranial magnetic stimulation(9) | repetitive transcranial magnetic stimulation(7)
+
+10. 临床试验方法学: sham, controlled, blind
+    Terms: 354 | 2025-2026 freq: 316
+    Top: sham group(27) | controlled trial(23) | randomized controlled trial(19) | clinical trial(18) | clinical trials(10)
+
+11. 自主神经与心血管: heart, rate, heart rate
+    Terms: 353 | 2025-2026 freq: 290
+    Top: heart rate variability(45) | heart rate(10) | blood pressure(7) | pulse width(7) | cardiac dysfunction(5)
+
+12. 脑区与回路: band, p300, beta
+    Terms: 303 | 2025-2026 freq: 133
+    Top: low-frequency fluctuations(3) | spectral analysis(3) | 8-13 hz(2) | alpha band(2) | beta band(2)
+
+13. 围术期应用: postoperative, gastric, laparoscopic
+    Terms: 284 | 2025-2026 freq: 224
+    Top: postoperative recovery(5) | postoperative complications(4) | postoperative day(4) | gastric motility(3) | intraperitoneal injection(3)
+
+14. 脑区与回路: rehabilitation, arm, upper
+    Terms: 269 | 2025-2026 freq: 140
+    Top: motor learning(4) | fugl-meyer assessment(3) | motor function(3) | motor recovery(3) | non-motor symptoms(3)
+
+15. 其他: vagus nerve, vagus nerve stimulation: vagal, vagus, vagus nerve
+    Terms: 235 | 2025-2026 freq: 218
+    Top: vagus nerve stimulation(61) | vagus nerve(48) | cardiac vagal activity(4) | vagal nerve stimulation(4) | invasive vagus nerve stimulation(3)
+
+16. 脑区与回路: gyrus, cymba, concha
+    Terms: 229 | 2025-2026 freq: 113
+    Top: cymba conchae(12) | cymba concha(5) | bonferroni correction(3) | left tragus(3) | cavum conchae(2)
+
+17. 脑区与回路: emotional, emotion, mood
+    Terms: 221 | 2025-2026 freq: 102
+    Top: emotion regulation(4) | negative emotions(4) | daily life(3) | emotional processing(3) | emotional disturbances(2)
+
+18. 炎症与免疫: inflammation, cytokine, inflammatory
+    Terms: 219 | 2025-2026 freq: 136
+    Top: inflammation(10) | inflammatory markers(4) | inflammatory response(4) | inflammatory responses(3) | systemic inflammation(3)
+
+19. 围术期应用: pain, chronic, chronic pain
+    Terms: 195 | 2025-2026 freq: 134
+    Top: postoperative pain(11) | pain management(7) | chronic pain(6) | pain intensity(6) | acute pain(3)
+
+20. 卒中与脑损伤: stroke, peripheral, ischemic
+    Terms: 190 | 2025-2026 freq: 96
+    Top: stroke(9) | ischemic stroke(3) | chronic stroke(2) | following intracerebral hemorrhage(2) | following stroke(2)
+
+21. 精神疾病与情绪: depression, anxiety, depressive
+    Terms: 183 | 2025-2026 freq: 134
+    Top: depression(15) | major depressive disorder(7) | anxiety(6) | depression-like behaviors(5) | beck depression inventory(4)
+
+22. 动物模型: model, mice, rats
+    Terms: 160 | 2025-2026 freq: 78
+    Top: rat model(4) | mouse model(3) | 6 mice(2) | autism(2) | rodent model(2)
+
+23. 炎症与免疫: 噪声
+    Terms: 144 | 2025-2026 freq: 92
+    Top: potential biomarkers(4) | western blot analysis(4) | expression level(3) | western blot(3) | candidate biomarker(2)
+
+24. 精神疾病与情绪: seizure, seizures, seizure frequency
+    Terms: 137 | 2025-2026 freq: 49
+    Top: drug-resistant epilepsy(5) | epilepsy(4) | seizure frequency(3) | juvenile myoclonic epilepsy(2) | seizure(2)
+
+25. 脑区与回路: eeg, electroencephalography, ecg
+    Terms: 130 | 2025-2026 freq: 69
+    Top: electroencephalography(6) | eeg(4) | eeg data(2) | eeg power spectrum(2) | electroencephalogram(2)
+
+26. 认知功能: neuromodulation, neuromodulatory, technique
+    Terms: 127 | 2025-2026 freq: 106
+    Top: neuromodulation(28) | non-invasive neuromodulation technique(10) | non-invasive neuromodulation(4) | neuromodulation method(3) | neuromodulation technique(3)
+
+27. 神经影像: fmri, imaging, functional
+    Terms: 122 | 2025-2026 freq: 74
+    Top: functional near-infrared spectroscopy(9) | functional magnetic resonance imaging(6) | fmri(4) | functional imaging(4) | diffusion tensor imaging(3)
+
+28. 睡眠障碍: sleep, insomnia, quality
+    Terms: 116 | 2025-2026 freq: 106
+    Top: sleep quality(12) | pittsburgh sleep quality index(10) | insomnia(6) | sleep disorders(5) | insomnia severity index(4)
+
+29. 脑区与回路: hamd, score, scores
+    Terms: 111 | 2025-2026 freq: 54
+    Top: vas scores(4) | psqi scores(2) | adjusted qor-40 score(1) | average score(1) | bai scores(1)
+
+30. 脑区与回路: sensory, stimulus, perceptual
+    Terms: 111 | 2025-2026 freq: 43
+    Top: central sensitization(6) | sensory processing(3) | autonomous sensory meridian response(1) | autonomous sensory meridian response (asmr)(1) | central sensitization inventory(1)
+
+31. 自主神经与心血管: nervous, autonomic, autonomic nervous
+    Terms: 101 | 2025-2026 freq: 122
+    Top: autonomic nervous system(22) | autonomic function(12) | autonomic regulation(7) | autonomic dysfunction(6) | autonomic nervous system activity(5)
+
+32. 脑区与回路: memory, working memory, memory performance
+    Terms: 91 | 2025-2026 freq: 56
+    Top: working memory(9) | memory performance(3) | associative memory(2) | memory function(2) | memory impairment(2)
+
+33. 其他: vagus nerve, vagus nerve stimulation: vns, cervical vns, neuroprotective
+    Terms: 91 | 2025-2026 freq: 42
+    Top: vns(3) | vns group(3) | acute bilateral cervical vns(1) | bilateral cervical vns(1) | cervical range(1)
+
+34. 临床试验方法学: registration, trial registration, registration number
+    Terms: 84 | 2025-2026 freq: 81
+    Top: ethics committee(9) | ethical approval(4) | trial registration(4) | approval number(3) | chinese clinical trial registry(3)
+
+35. 炎症与免疫: diabetes, glucose, insulin
+    Terms: 84 | 2025-2026 freq: 35
+    Top: continuous glucose monitoring(4) | diabetes mellitus(2) | glucose metabolism(2) | glucose variability(2) | type 2 diabetes mellitus(2)
+
+36. 围术期应用: 噪声
+    Terms: 83 | 2025-2026 freq: 61
+    Top: postoperative delirium(11) | breast cancer(4) | perioperative anxiety(4) | breast cancer patients(2) | visceral hypersensitivity(2)
+
+37. 刺激参数与设备: electrode, stimulator, electrodes
+    Terms: 82 | 2025-2026 freq: 40
+    Top: electrodermal activity(3) | electrodes(2) | adding floating ground cable traps(1) | adhesive electrodes(1) | adhesive pads(1)
+
+38. 炎症与免疫: noradrenergic, locus, coeruleus
+    Terms: 81 | 2025-2026 freq: 59
+    Top: locus coeruleus(15) | locus coeruleus-norepinephrine(5) | salivary alpha-amylase(4) | noradrenergic activity(3) | central noradrenergic activity(2)
+
+39. 炎症与免疫: nf, kappa, nf kappa
+    Terms: 80 | 2025-2026 freq: 46
+    Top: acceptable level(2) | bdnf level(2) | c-fos expression(2) | gadd45 beta(2) | nf-kappa b(2)
+
+40. 自主神经与心血管: stress, stress induced, induced
+    Terms: 79 | 2025-2026 freq: 51
+    Top: acute mental stress(3) | chronic unpredictable mild stress(3) | post-traumatic stress disorder(3) | stress(3) | posttraumatic stress disorder(2)
+
+41. 刺激参数与设备: ear, earlobe, canal
+    Terms: 78 | 2025-2026 freq: 44
+    Top: left ear(7) | ear(3) | external ear(2) | left ear lobe(2) | left earlobe(2)
+
+42. 脑区与回路: maze, flight, testing
+    Terms: 76 | 2025-2026 freq: 36
+    Top: separate blocks(3) | elevated plus maze(2) | permutation test(2) | aircraft system(1) | auc test(1)
+
+43. 卒中与脑损伤: plasticity, white matter, matter
+    Terms: 75 | 2025-2026 freq: 52
+    Top: brain injury(4) | neural plasticity(4) | neuroplasticity(4) | traumatic brain injury(4) | synaptic plasticity(3)
+
+44. 脑区与回路: muscle, neck, masseter
+    Terms: 66 | 2025-2026 freq: 38
+    Top: muscle relaxation(2) | muscle tone(2) | neck pain(2) | analysis triceps(1) | bruxism(1)
+
+45. 精神疾病与情绪: disease, neurological, disorders
+    Terms: 66 | 2025-2026 freq: 42
+    Top: parkinsons disease(5) | neurological disorders(4) | multiple sclerosis(3) | cerebral palsy(2) | neurological outcomes(2)
+
+46. 脑区与回路: session, sessions, laboratory
+    Terms: 65 | 2025-2026 freq: 34
+    Top: separate sessions(3) | single session(3) | different sessions(2) | first session(2) | weekly sessions(2)
+
+47. 精神疾病与情绪: fear, extinction, conditioning
+    Terms: 64 | 2025-2026 freq: 30
+    Top: fear extinction(3) | behavioral fear component(1) | declarative fear extinction(1) | differential conditioning protocol(1) | differential fear conditioning paradigm(1)
+
+48. 精神疾病与情绪: migraine, headache, migraine attack
+    Terms: 64 | 2025-2026 freq: 37
+    Top: migraine(4) | headache symptoms(2) | vestibular migraine(2) | 4-20 headache(1) | acute headache episodes(1)
+
+49. 脑区与回路: adverse event, mortality, adverse
+    Terms: 62 | 2025-2026 freq: 67
+    Top: adverse event(19) | serious adverse event(7) | hospital mortality(2) | increasing incidence(2) | 12-month mortality(1)
+
+50. 脑区与回路: somatosensory, evoked, evoked potentials
+    Terms: 60 | 2025-2026 freq: 25
+    Top: motor-evoked potentials(4) | abnormal activation(1) | activation effects(1) | activation pattern(1) | concurrent activation(1)
+
+======================================================================
+End of Report

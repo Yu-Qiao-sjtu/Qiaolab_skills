@@ -1,0 +1,522 @@
+================================================================================
+  taVNS 术语分析综合报告
+  Comprehensive Term Analysis Report
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+  一、分类结果总览
+────────────────────────────────────────────────────────────────────────────────
+
+  术语总数: 15446
+  基础研究: 5812 (37.6%)
+  临床:      8816 (57.1%)
+  交叉:      818 (5.3%)
+
+  基础研究（含交叉）: 6630
+  临床（含交叉）:     9634
+
+────────────────────────────────────────────────────────────────────────────────
+  二、2025-2026 研究热点 (Hotspots)
+────────────────────────────────────────────────────────────────────────────────
+
+  【基础研究】2025-2026 高频术语 Top 30
+  Rank  Term                                                2025  2026    合计      类别
+  ----  ----------------------------------------------------------------------------
+  1     vagus nerve stimulation                               41    20    61      基础
+  2     vagus nerve                                           34    14    48      基础
+  3     heart rate variability                                31    14    45      基础
+  4     autonomic nervous system                              15     7    22      基础
+  5     functional connectivity                               12     6    18      基础
+  6     significant difference                                 8     9    17      交叉
+  7     cognitive function                                     8     8    16      基础
+  8     locus coeruleus                                        8     7    15      基础
+  9     significant change                                    10     3    13      交叉
+  10    autonomic function                                     9     3    12      基础
+  11    cymba conchae                                          8     4    12      基础
+  12    stimulation                                            8     4    12      基础
+  13    significant improvements                               7     4    11      交叉
+  14    underlying mechanism                                   7     4    11      基础
+  15    auricular branch                                       6     4    10      基础
+  16    clinical trials                                        8     2    10      交叉
+  17    heart rate                                             9     1    10      基础
+  18    inflammation                                           7     3    10      基础
+  19    functional near-infrared spectroscopy                  6     3     9      基础
+  20    transcranial magnetic stimulation                      7     2     9      基础
+  21    cortical excitability                                  7     1     8      基础
+  22    pupil dilation                                         6     2     8      基础
+  23    pupil size                                             6     2     8      基础
+  24    autonomic regulation                                   5     2     7      基础
+  25    blood pressure                                         4     3     7      基础
+  26    functional dyspepsia                                   3     4     7      基础
+  27    neural activity                                        4     3     7      基础
+  28    neural mechanism                                       3     4     7      基础
+  29    parasympathetic activity                               4     3     7      基础
+  30    pulse width                                            6     1     7      基础
+
+  【临床】2025-2026 高频术语 Top 30
+  Rank  Term                                                2025  2026    合计      类别
+  ----  ----------------------------------------------------------------------------
+  1     sham stimulation                                      28    14    42      临床
+  2     secondary outcomes                                    23    10    33      临床
+  3     primary outcome                                       20    12    32      临床
+  4     neuromodulation                                       21     7    28      临床
+  5     sham group                                            20     7    27      临床
+  6     control group                                         15    10    25      临床
+  7     controlled trial                                      17     6    23      临床
+  8     adverse event                                         13     6    19      临床
+  9     randomized controlled trial                           11     8    19      临床
+  10    clinical trial                                        15     3    18      临床
+  11    significant difference                                 8     9    17      交叉
+  12    depression                                             8     7    15      临床
+  13    electrical stimulation                                12     3    15      临床
+  14    systematic review                                     10     5    15      临床
+  15    healthy adults                                        11     3    14      临床
+  16    significant change                                    10     3    13      交叉
+  17    healthy participants                                  11     1    12      临床
+  18    sleep quality                                          5     7    12      临床
+  19    clinical application                                   9     2    11      临床
+  20    consecutive day                                        9     2    11      临床
+  21    postoperative delirium                                 5     6    11      临床
+  22    postoperative pain                                     4     7    11      临床
+  23    significant improvements                               7     4    11      交叉
+  24    therapeutic effects                                    4     7    11      临床
+  25    clinical trials                                        8     2    10      交叉
+  26    future study                                           7     3    10      临床
+  27    non-invasive neuromodulation technique                 6     4    10      临床
+  28    pittsburgh sleep quality index                         6     4    10      临床
+  29    primary outcomes                                       7     3    10      临床
+  30    elderly patients                                       5     4     9      临床
+
+────────────────────────────────────────────────────────────────────────────────
+  三、2025-2026 突发术语 (Burst Terms — 此前从未出现)
+────────────────────────────────────────────────────────────────────────────────
+  突发术语总数: 5680
+  基础研究突发: 2329
+  临床突发:     3673
+
+  【基础研究】突发术语 Top 40
+  Rank  Term                                                2025  2026    合计
+  ----  --------------------------------------------------------------------
+  1     repetitive transcranial magnetic stimulation           5     2     7
+  2     central sensitization                                  3     3     6
+  3     myocardial infarction                                  4     1     5
+  4     functional outcomes                                    3     1     4
+  5     mediation analysis                                     0     4     4
+  6     negative emotions                                      3     1     4
+  7     autonomic imbalance                                    2     1     3
+  8     emotional processing                                   3     0     3
+  9     entorhinal cortex                                      0     3     3
+  10    functional near-infrared spectroscopy (fnirs)          1     2     3
+  11    international conferences                              2     1     3
+  12    medical university                                     2     1     3
+  13    neural responses                                       2     1     3
+  14    paired-pulse transcranial magnetic stimulation         3     0     3
+  15    parameter optimization                                 3     0     3
+  16    respiratory-gated stimulation                          2     1     3
+  17    synaptic plasticity                                    1     2     3
+  18    transmission electron microscopy                       2     1     3
+  19    trigeminal nerve stimulation                           3     0     3
+  20    vagal pathways                                         2     1     3
+  21    ventricular ejection fraction                          2     1     3
+  22    8-13 hz                                                2     0     2
+  23    additional benefits                                    1     1     2
+  24    adverse reactions                                      2     0     2
+  25    alpha band                                             2     0     2
+  26    anterior circulation                                   2     0     2
+  27    aortic dissection                                      2     0     2
+  28    autonomic                                              1     1     2
+  29    autonomic dysregulation                                1     1     2
+  30    bdnf level                                             1     1     2
+  31    biomechanical property                                 1     1     2
+  32    blood pressure variability                             1     1     2
+  33    brain connectivity                                     2     0     2
+  34    brain injuries                                         1     1     2
+  35    brain tissue                                           0     2     2
+  36    candidate biomarker                                    1     1     2
+  37    cardiovagal activity                                   2     0     2
+  38    case presentation                                      2     0     2
+  39    cavum conchae                                          1     1     2
+  40    central amygdala                                       2     0     2
+
+  【临床】突发术语 Top 40
+  Rank  Term                                                2025  2026    合计
+  ----  --------------------------------------------------------------------
+  1     postoperative delirium                                 5     6    11
+  2     electric stimulation therapy                           5     1     6
+  3     hospital stay                                          2     3     5
+  4     long covid                                             3     2     5
+  5     myocardial infarction                                  4     1     5
+  6     postoperative recovery                                 2     3     5
+  7     preferred reporting item                               4     1     5
+  8     sleep disorders                                        3     2     5
+  9     systematic reviews                                     4     1     5
+  10    breast cancer                                          2     2     4
+  11    chronic heart failure                                  4     0     4
+  12    continuous glucose monitoring                          4     0     4
+  13    controlled clinical trial                              1     3     4
+  14    data mining                                            2     2     4
+  15    functional outcomes                                    3     1     4
+  16    insomnia severity index                                4     0     4
+  17    perioperative anxiety                                  1     3     4
+  18    postoperative complications                            3     1     4
+  19    postoperative day                                      1     3     4
+  20    safety profile                                         4     0     4
+  21    similar technology                                     2     2     4
+  22    temporomandibular disorders                            4     0     4
+  23    vestibular rehabilitation                              2     2     4
+  24    acute mental stress                                    3     0     3
+  25    aged                                                   1     2     3
+  26    approval number                                        2     1     3
+  27    breathing exercises                                    2     1     3
+  28    chinese clinical trial registry                        2     1     3
+  29    clinical trial registration                            3     0     3
+  30    effect sizes                                           2     1     3
+  31    favorable safety profile                               3     0     3
+  32    fibromyalgia impact questionnaire                      1     2     3
+  33    lc-ne activity                                         3     0     3
+  34    long-term outcomes                                     2     1     3
+  35    meta-analyses guidelines                               3     0     3
+  36    meta-analysis protocol                                 1     2     3
+  37    negative symptoms                                      1     2     3
+  38    neuromodulation technique                              3     0     3
+  39    noninvasive neuromodulation technique                  1     2     3
+  40    perioperative period                                   1     2     3
+
+────────────────────────────────────────────────────────────────────────────────
+  四、2022-2026 演化趋势 (Evolution)
+────────────────────────────────────────────────────────────────────────────────
+
+  4.1 年度术语活跃度（基础 vs 临床）
+  Year          基础研究        临床        总计
+  --------------------------------------
+  2022          1074      1406      2480
+  2023          1041      1463      2504
+  2024          1508      2125      3633
+  2025          2483      3890      6373
+  2026          1436      2044      3480
+
+  4.2 各年度 Top 20 术语（基础研究）
+
+  ── 2022 基础研究高频术语 ──
+     1. vagus nerve stimulation                                 |  29
+     2. vagus nerve                                             |  24
+     3. heart rate variability                                  |  14
+     4. functional connectivity                                 |   9
+     5. inflammation                                            |   6
+     6. significant difference                                  |   6
+     7. brain activity                                          |   5
+     8. heart rate                                              |   5
+     9. prefrontal cortex                                       |   5
+    10. auricular branch                                        |   4
+    11. brain regions                                           |   4
+    12. central nervous system                                  |   4
+    13. clinical trials                                         |   4
+    14. hrv parameter                                           |   4
+    15. pain intensity                                          |   4
+    16. regional homogeneity                                    |   4
+    17. clinical outcomes                                       |   3
+    18. clinical symptoms                                       |   3
+    19. cymba conchae                                           |   3
+    20. erosive hand osteoarthritis                             |   3
+
+  ── 2023 基础研究高频术语 ──
+     1. vagus nerve stimulation                                 |  19
+     2. vagus nerve                                             |  14
+     3. functional connectivity                                 |  12
+     4. significant difference                                  |  10
+     5. autonomic nervous system                                |   6
+     6. cognitive function                                      |   6
+     7. heart rate variability                                  |   6
+     8. locus coeruleus                                         |   6
+     9. functional magnetic resonance imaging                   |   5
+    10. resting state                                           |   5
+    11. auricular branch                                        |   4
+    12. brain regions                                           |   4
+    13. default mode network                                    |   4
+    14. functional near-infrared spectroscopy                   |   4
+    15. pupil dilation                                          |   4
+    16. stimulation                                             |   4
+    17. blood pressure                                          |   3
+    18. brain activity                                          |   3
+    19. central nervous system                                  |   3
+    20. inflammation                                            |   3
+
+  ── 2024 基础研究高频术语 ──
+     1. vagus nerve stimulation                                 |  28
+     2. heart rate variability                                  |  26
+     3. vagus nerve                                             |  26
+     4. autonomic nervous system                                |  12
+     5. significant difference                                  |  10
+     6. cognitive function                                      |   8
+     7. heart rate                                              |   7
+     8. brain regions                                           |   6
+     9. electroencephalography                                  |   6
+    10. functional connectivity                                 |   6
+    11. locus coeruleus                                         |   6
+    12. emotion regulation                                      |   5
+    13. inflammatory cytokines                                  |   5
+    14. neural activity                                         |   5
+    15. oxidative stress                                        |   5
+    16. anti-inflammatory effects                               |   4
+    17. auricular branch                                        |   4
+    18. autonomic function                                      |   4
+    19. brain network                                           |   4
+    20. inflammation                                            |   4
+
+  ── 2025 基础研究高频术语 ──
+     1. vagus nerve stimulation                                 |  41
+     2. vagus nerve                                             |  34
+     3. heart rate variability                                  |  31
+     4. autonomic nervous system                                |  15
+     5. functional connectivity                                 |  12
+     6. significant change                                      |  10
+     7. autonomic function                                      |   9
+     8. heart rate                                              |   9
+     9. clinical trials                                         |   8
+    10. cognitive function                                      |   8
+    11. cymba conchae                                           |   8
+    12. locus coeruleus                                         |   8
+    13. significant difference                                  |   8
+    14. stimulation                                             |   8
+    15. cortical excitability                                   |   7
+    16. inflammation                                            |   7
+    17. significant improvements                                |   7
+    18. transcranial magnetic stimulation                       |   7
+    19. underlying mechanism                                    |   7
+    20. auricular branch                                        |   6
+
+  ── 2026 基础研究高频术语 ──
+     1. vagus nerve stimulation                                 |  20
+     2. heart rate variability                                  |  14
+     3. vagus nerve                                             |  14
+     4. significant difference                                  |   9
+     5. cognitive function                                      |   8
+     6. autonomic nervous system                                |   7
+     7. locus coeruleus                                         |   7
+     8. functional connectivity                                 |   6
+     9. auricular branch                                        |   4
+    10. cymba conchae                                           |   4
+    11. emotion regulation                                      |   4
+    12. functional dyspepsia                                    |   4
+    13. mediation analysis                                      |   4
+    14. neural mechanism                                        |   4
+    15. neural plasticity                                       |   4
+    16. oxidative stress                                        |   4
+    17. significant improvements                                |   4
+    18. statistical analysis                                    |   4
+    19. stimulation                                             |   4
+    20. underlying mechanism                                    |   4
+
+  4.3 各年度 Top 20 术语（临床）
+
+  ── 2022 临床高频术语 ──
+     1. sham stimulation                                        |  12
+     2. major depressive disorder                               |   7
+     3. healthy participants                                    |   6
+     4. significant difference                                  |   6
+     5. 17-item hamilton depression rating scale                |   5
+     6. depression                                              |   5
+     7. neuromodulation                                         |   5
+     8. primary outcome                                         |   5
+     9. treatment-resistant depression                          |   5
+    10. chronic pain                                            |   4
+    11. clinical trial                                          |   4
+    12. clinical trials                                         |   4
+    13. future study                                            |   4
+    14. healthy subjects                                        |   4
+    15. open access article                                     |   4
+    16. pain intensity                                          |   4
+    17. pittsburgh sleep quality index                          |   4
+    18. previous study                                          |   4
+    19. randomized controlled trial                             |   4
+    20. rheumatoid arthritis                                    |   4
+
+  ── 2023 临床高频术语 ──
+     1. sham stimulation                                        |  10
+     2. significant difference                                  |  10
+     3. sham group                                              |   8
+     4. healthy controls                                        |   6
+     5. healthy participants                                    |   6
+     6. adverse event                                           |   5
+     7. coma recovery                                           |   5
+     8. control group                                           |   5
+     9. healthy individuals                                     |   5
+    10. stroke                                                  |   5
+    11. conscious state                                         |   4
+    12. disorders of consciousness                              |   4
+    13. major depressive disorder                               |   4
+    14. open field test                                         |   4
+    15. parkinsons disease                                      |   4
+    16. previous study                                          |   4
+    17. randomized controlled trial                             |   4
+    18. stress                                                  |   4
+    19. synergistic effects                                     |   4
+    20. autism spectrum disorder                                |   3
+
+  ── 2024 临床高频术语 ──
+     1. neuromodulation                                         |  13
+     2. sham stimulation                                        |  11
+     3. sham group                                              |  10
+     4. significant difference                                  |  10
+     5. electrical stimulation                                  |   8
+     6. control group                                           |   7
+     7. controlled trial                                        |   7
+     8. healthy subjects                                        |   7
+     9. parkinsons disease                                      |   7
+    10. healthy participants                                    |   6
+    11. adverse event                                           |   5
+    12. chronic pain                                            |   5
+    13. clinical trial                                          |   5
+    14. major depressive disorder                               |   5
+    15. pain threshold                                          |   5
+    16. previous research                                       |   5
+    17. secondary outcomes                                      |   5
+    18. chronic low back pain                                   |   4
+    19. controlled trials                                       |   4
+    20. depression                                              |   4
+
+  ── 2025 临床高频术语 ──
+     1. sham stimulation                                        |  28
+     2. secondary outcomes                                      |  23
+     3. neuromodulation                                         |  21
+     4. primary outcome                                         |  20
+     5. sham group                                              |  20
+     6. controlled trial                                        |  17
+     7. clinical trial                                          |  15
+     8. control group                                           |  15
+     9. adverse event                                           |  13
+    10. electrical stimulation                                  |  12
+    11. healthy adults                                          |  11
+    12. healthy participants                                    |  11
+    13. randomized controlled trial                             |  11
+    14. significant change                                      |  10
+    15. systematic review                                       |  10
+    16. clinical application                                    |   9
+    17. consecutive day                                         |   9
+    18. clinical trials                                         |   8
+    19. depression                                              |   8
+    20. significant difference                                  |   8
+
+  ── 2026 临床高频术语 ──
+     1. sham stimulation                                        |  14
+     2. primary outcome                                         |  12
+     3. control group                                           |  10
+     4. secondary outcomes                                      |  10
+     5. significant difference                                  |   9
+     6. randomized controlled trial                             |   8
+     7. depression                                              |   7
+     8. neuromodulation                                         |   7
+     9. postoperative pain                                      |   7
+    10. sham group                                              |   7
+    11. sleep quality                                           |   7
+    12. therapeutic effects                                     |   7
+    13. adverse event                                           |   6
+    14. controlled trial                                        |   6
+    15. postoperative delirium                                  |   6
+    16. mean age                                                |   5
+    17. systematic review                                       |   5
+    18. controlled trials                                       |   4
+    19. elderly patients                                        |   4
+    20. non-invasive neuromodulation technique                  |   4
+
+  4.4 增长最快的术语 Top 30 (2022-2024 → 2025-2026)
+  Rank  Term                                               2022-24 2025-26      增长      类别
+  ----  ----------------------------------------------------------------------------------
+  1     primary outcome                                         11      32     +21      临床
+  2     secondary outcomes                                      12      33     +21      临床
+  3     control group                                           13      25     +12      临床
+  4     controlled trial                                        12      23     +11      临床
+  5     postoperative delirium                                   0      11     +11      临床
+  6     sleep quality                                            1      12     +11      临床
+  7     healthy adults                                           5      14      +9      临床
+  8     postoperative pain                                       2      11      +9      临床
+  9     randomized controlled trial                             10      19      +9      临床
+  10    sham stimulation                                        33      42      +9      临床
+  11    systematic review                                        6      15      +9      临床
+  12    therapeutic effects                                      2      11      +9      临床
+  13    clinical trial                                          10      18      +8      临床
+  14    elderly patients                                         1       9      +8      临床
+  15    primary outcomes                                         2      10      +8      临床
+  16    significant improvements                                 3      11      +8      交叉
+  17    adverse event                                           12      19      +7      临床
+  18    autonomic function                                       5      12      +7      基础
+  19    consecutive day                                          4      11      +7      临床
+  20    cymba conchae                                            5      12      +7      基础
+  21    ethics committee                                         2       9      +7      临床
+  22    neuromodulation                                         21      28      +7      临床
+  23    repetitive transcranial magnetic stimulation             0       7      +7      基础
+  24    acute effects                                            1       7      +6      临床
+  25    autonomic regulation                                     1       7      +6      基础
+  26    central sensitization                                    0       6      +6      基础
+  27    electric stimulation therapy                             0       6      +6      临床
+  28    mean age                                                 2       8      +6      临床
+  29    non-invasive neuromodulation technique                   4      10      +6      临床
+  30    pain management                                          1       7      +6      临床
+
+  4.5 衰退最快的术语 Top 20 (2022-2024 → 2025-2026)
+  Rank  Term                                               2022-24 2025-26      变化      类别
+  ----  ----------------------------------------------------------------------------------
+  1     vagus nerve                                             64      48     -16      基础
+  2     vagus nerve stimulation                                 76      61     -15      基础
+  3     brain regions                                           14       2     -12      基础
+  4     functional connectivity                                 27      18      -9      基础
+  5     major depressive disorder                               16       7      -9      临床
+  6     resting state                                            9       0      -9      基础
+  7     significant difference                                  26      17      -9      交叉
+  8     central nervous system                                  10       2      -8      基础
+  9     brain activity                                           9       2      -7      基础
+  10    healthy controls                                        11       5      -6      临床
+  11    healthy participants                                    18      12      -6      临床
+  12    parkinsons disease                                      11       5      -6      临床
+  13    resting-state functional magnetic resonance imagin       8       2      -6      基础
+  14    stimulation parameter                                    9       3      -6      基础
+  15    17-item hamilton depression rating scale                 6       1      -5      临床
+  16    anti-inflammatory effects                                6       1      -5      基础
+  17    autism spectrum disorder                                 5       0      -5      临床
+  18    brain network                                            7       2      -5      基础
+  19    covid-19                                                 5       0      -5      临床
+  20    default mode network                                     7       2      -5      基础
+
+  4.6 2022→2026 逐年趋势追踪（精选核心术语）
+
+  基础研究核心术语 (2022-2026 逐年级)
+  Term                                           2022  2023  2024  2025  2026 Total
+  ---------------------------------------------------------------------------------
+  vagus nerve stimulation                          29    19    28    41    20   137
+  vagus nerve                                      24    14    26    34    14   112
+  heart rate variability                           14     6    26    31    14    91
+  functional connectivity                           9    12     6    12     6    45
+  significant difference                            6    10    10     8     9    43
+  autonomic nervous system                          0     6    12    15     7    40
+  cognitive function                                2     6     8     8     8    32
+  locus coeruleus                                   2     6     6     8     7    29
+  heart rate                                        5     2     7     9     1    24
+  inflammation                                      6     3     4     7     3    23
+  auricular branch                                  4     4     4     6     4    22
+  significant change                                3     2     3    10     3    21
+  underlying mechanism                              2     2     4     7     4    19
+  stimulation                                       1     4     1     8     4    18
+  autonomic function                                0     1     4     9     3    17
+
+  临床核心术语 (2022-2026 逐年级)
+  Term                                           2022  2023  2024  2025  2026 Total
+  ---------------------------------------------------------------------------------
+  sham stimulation                                 12    10    11    28    14    75
+  neuromodulation                                   5     3    13    21     7    49
+  sham group                                        4     8    10    20     7    49
+  secondary outcomes                                4     3     5    23    10    45
+  primary outcome                                   5     3     3    20    12    43
+  significant difference                            6    10    10     8     9    43
+  control group                                     1     5     7    15    10    38
+  controlled trial                                  3     2     7    17     6    35
+  adverse event                                     2     5     5    13     6    31
+  healthy participants                              6     6     6    11     1    30
+  randomized controlled trial                       4     4     2    11     8    29
+  clinical trial                                    4     1     5    15     3    28
+  depression                                        5     3     4     8     7    27
+  electrical stimulation                            2     2     8    12     3    27
+  major depressive disorder                         7     4     5     4     3    23
+
+================================================================================
+  报告结束
+================================================================================
