@@ -1,178 +1,19 @@
-# AI4asking
+# Qiaolab Skills
 
-> 追问 > 提问：AI 时代真正的分水岭
+统一维护科研思维、论文拆解和方法论技能。技能位于 `skills/<name>/SKILL.md`，各目录包含所需参考材料。
 
-一键适配 6 大 AI 平台。核心论点：AI 降低了提问门槛，但区分度藏在追问的深度里。真正的功夫不在第一问，而在第十问。
+| 技能 | 用途 |
+| --- | --- |
+| [ai4asking](skills/ai4asking/SKILL.md) | 事实、推理和隐含假设追问 |
+| [paper-deconstruction](skills/paper-deconstruction/SKILL.md) | 论文证据、因果逻辑和课题迁移 |
+| [research-thinking-insights](skills/research-thinking-insights/SKILL.md) | 科研问题定义与排错 |
+| [ai-insider-research](skills/ai-insider-research/SKILL.md) | AI 研究访谈方法论 |
+| [ai-paradigm-shift](skills/ai-paradigm-shift/SKILL.md) | Agent 范式访谈方法论 |
+| [semiconductor-chip-insight](skills/semiconductor-chip-insight/SKILL.md) | 芯片产业与工程思维 |
+| [yonghegong-wish](skills/yonghegong-wish/SKILL.md) | 目标与指令精确表达 |
 
----
+克隆仓库后，把需要的**完整技能目录**复制到使用平台的技能目录，保留相对路径与参考文件。旧的 `AI4asking` 统一为 `ai4asking`，更新已安装副本时移除旧副本，避免重复加载。根目录平台规则文件是 AI4asking 的历史适配，按需使用，不要把整个技能库自动注入所有项目。
 
-## 快速安装
+Wisp_skills 已合入本仓库，原内容和署名保留；论文拆解提取自 Pro.-Paper。`nsfc-grant` 原来仅为空占位文件，未作为可用技能发布。私有实验记录技能继续在原私有仓库维护。
 
-```powershell
-git clone https://github.com/Yu-Qiao-sjtu/Qiaolab_skills.git
-```
-
----
-
-## 平台适配
-
-### WispTerm
-
-将 `skills/AI4asking/` 复制到配置目录：
-
-| 位置 | 路径 |
-|------|------|
-| 全局（推荐） | `%APPDATA%\wispterm\skills\AI4asking\` |
-| 项目级 | `<项目目录>\skills\AI4asking\` |
-| 可执行文件旁 | `<wispterm目录>\skills\AI4asking\` |
-
-```
-$AI4asking 帮我审视这个分析还有什么遗漏
-```
-
-验证：输入 `/skills`，应看到 `AI4asking`。
-
----
-
-### Claude Code
-
-将 `CLAUDE.md` 复制到：
-
-| 作用域 | 路径 |
-|------|------|
-| 项目级（推荐） | `<项目根目录>/CLAUDE.md` |
-| 全局 | `~/.claude/CLAUDE.md` |
-
-Claude Code 启动时自动加载，无需手动调用。
-
----
-
-### OpenAI Codex CLI
-
-将 `CODEX.md` 复制到：
-
-| 作用域 | 路径 |
-|------|------|
-| 项目级（推荐） | `<项目根目录>/CODEX.md` |
-
-Codex 启动时自动加载。
-
----
-
-### Cursor
-
-将 `.cursorrules` 复制到：
-
-| 作用域 | 路径 |
-|------|------|
-| 项目级 | `<项目根目录>/.cursorrules` |
-
-Cursor 自动读取，无需手动调用。
-
----
-
-### Windsurf
-
-将 `.windsurfrules` 复制到：
-
-| 作用域 | 路径 |
-|------|------|
-| 项目级 | `<项目根目录>/.windsurfrules` |
-
-Windsurf 自动读取。
-
----
-
-### GitHub Copilot
-
-将 `.github/copilot-instructions.md` 复制到：
-
-| 作用域 | 路径 |
-|------|------|
-| 项目级 | `<项目根目录>/.github/copilot-instructions.md` |
-
-Copilot 自动加载。
-
----
-
-## 适用平台速查
-
-| 平台 | 文件 | 加载方式 |
-|------|------|:--:|
-| WispTerm | `skills/AI4asking/SKILL.md` | `$AI4asking` 手动调用 |
-| Claude Code | `CLAUDE.md` | 自动 |
-| Codex CLI | `CODEX.md` | 自动 |
-| Cursor | `.cursorrules` | 自动 |
-| Windsurf | `.windsurfrules` | 自动 |
-| GitHub Copilot | `.github/copilot-instructions.md` | 自动 |
-
----
-
-## 三级追问深度
-
-| 级别 | 核心问题 | 关注点 | 哲学根源 |
-|:--:|------|------|------|
-| **一级** | 「你说的是真的吗？」 | 事实核查：数据对吗？来源对吗？ | 经验主义 |
-| **二级** | 「推理过程有漏洞吗？」 | 逻辑链审计：前提→推理→结论，哪一步最弱？ | 苏格拉底反诘法 |
-| **三级** | 「你依赖了什么隐含假设？」 | 假设爆破：AI 没说的那个预设是什么？推翻它会怎样？ | 波普尔 + 康德 |
-
----
-
-## 五个哲学引擎
-
-| 哲学传统 | 追问角度 | 对应追问级别 |
-|------|------|:--:|
-| **苏格拉底反诘法** | 「你如何定义 X？定义变了结论还成立吗？」 | 二级 |
-| **波普尔证伪主义** | 「假设结论是错的——能看到什么反证？」 | 三级 |
-| **康德批判哲学** | 「这个结论成立的先决条件是什么？」 | 三级 |
-| **伽达默尔诠释学** | 「不是挑错——我们一起回到前提。」 | 追问的边界 |
-| **图尔敏论证模型** | 「从根据到主张的保证是什么？支持多强？」 | 全三级 |
-
----
-
-## 追问话术模板（12 句）
-
-**通用 6 句**：
-- 「你的第 X 点隐含假设是 Y，验证过吗？」
-- 「这个结论在 Z 条件下还适用吗？」
-- 「你引用的数据来源是什么？」
-- 「如果把 A 换成 B，结论会变吗？」
-- 「你排除了哪些替代解释？」
-- 「这个建议在我的约束 X 下可执行吗？」
-
-**哲学驱动 6 句**：
-- 「你如何定义 X？定义变了结论还成立吗？」（苏格拉底）
-- 「假设结论是错的——能看到什么反证？」（波普尔）
-- 「这个结论成立的先决条件是什么？」（康德）
-- 「不是挑错——我们一起回到前提。」（伽达默尔）
-- 「这个论证的保证（warrant）是哪一步？支持多强？」（图尔敏）
-- 「如果限定词从『总是』变成『有时』，说服力变了吗？」（图尔敏）
-
----
-
-## 追问的边界：什么时候不追
-
-| 场景 | 策略 |
-|------|------|
-| 速度 > 精度 | 追一级，停 |
-| AI 输出明显垃圾 | 不追，重新提问 |
-| 领域知识不足 | 只追一级 |
-| 执行模式（非探索） | 不追，先做 |
-| 结论已足够好 | 停。完美是好的敌人 |
-
----
-
-## 新手降级路径
-
-| 阶段 | 练什么 |
-|:--:|------|
-| 第 1-2 周 | 只练一级：每次选一个事实断言查证 |
-| 第 3-4 周 | 加练二级：找因果链「因为 X 所以 Y」的逻辑跳板 |
-| 第 2 个月起 | 挑战三级：在专业领域内，问 AI 没说什么 |
-| 长期 | 追问自动化——像骑自行车 |
-
----
-
-## License
-
-MIT
+[迁移与来源](MIGRATION.md)
