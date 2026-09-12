@@ -7,7 +7,7 @@
 | **技能名称** | semiconductor-chip-insight |
 | **定位** | 半导体芯片产业认知与架构设计思维框架 |
 | **模块数** | 8 |
-| **文件** | [SKILL.md](./SKILL.md) |
+| **文件** | [方法正文](methods.md) |
 
 ## 模块清单
 
@@ -26,7 +26,7 @@
 ## 安装
 
 ```
-复制 SKILL.md 到 ~/.claude/skills/ 目录即可
+安装完整技能目录；不能只复制单个 SKILL.md。
 ```
 
 ## 适用场景

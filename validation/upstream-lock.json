@@ -1,0 +1,15 @@
+{
+  "repository": "xuzhougeng/wisp-science",
+  "commit": "ffd8dd7af4ec80bf4fed3f3cdb878c766b970d9c",
+  "target_wisp": "1.11.0",
+  "files": {
+    "crates/wisp-skills/src/manifest.rs": "ba2689c06a45e381bfcf253c5fd6cff981c679c696b498a774ec7f39117ef1a5",
+    "crates/wisp-skills/src/distribution.rs": "3678bfa323d1966d346fa567adb5a351c94a081475253020e836ef3ca0c578db",
+    "crates/wisp-dto/src/lib.rs": "465523554b5aa82c89d3e4a929334de09bdc51d5f03ff044222d93ea47b8e652",
+    "crates/wisp-dto/src/mcp_app_child.rs": "195aad34b51b12500beb2c4ac79ffff88446ab187bbfe90d83bcd02386351eeb",
+    "crates/wisp-dto/src/research_journey.rs": "361855a693d0ed3e593d9621cadfed59d5686f16b5127d61488e33b34f12c0b5",
+    "skills/skill-creator/scripts/quick_validate.py": "acdcf089f8c0232622f0cb72bbf5e436902c24edb84a2942aa2378629b8a73a2",
+    "skills/skill-creator/scripts/package_skill.py": "7ab2b2ae15d1f69ddb820901b96eaf2158d86592b80d68da5ee23aa7941355d8",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+  }
+}

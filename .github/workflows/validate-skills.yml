@@ -1,4 +1,4 @@
-name: Validate skill collection
+name: Wisp skill compatibility
 on:
   push:
   pull_request:
@@ -7,10 +7,19 @@ permissions:
   contents: read
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python scripts/validate_skills.py
+      - run: python -X utf8 scripts/validate_skills.py
+      - run: python -X utf8 -m unittest discover -s scripts -p test_packages.py -v
+      - run: python -X utf8 scripts/fetch_wisp_validator.py
+      - run: python -X utf8 scripts/check_upstream_format.py
+      - run: rustup toolchain install 1.96.1 --profile minimal
+      - run: cargo +1.96.1 run --locked --manifest-path validation/wisp-package-check/Cargo.toml -- skills
+      - run: python -X utf8 scripts/package_skills.py

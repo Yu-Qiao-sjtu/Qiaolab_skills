@@ -10,9 +10,9 @@
 
 | 访谈 | 嘉宾 | 原始技能包 |
 |------|------|-----------|
-| [BV1YR5E6EE9o](https://www.bilibili.com/video/BV1YR5E6EE9o/) | 姚顺宇（Anthropic→Google DeepMind） | [ai-insider-research](../ai-insider-research/) |
-| [BV1nB3u6tERu](https://www.bilibili.com/video/BV1nB3u6tERu/) | 廖恒（华为半导体首席科学家） | [semiconductor-chip-insight](../semiconductor-chip-insight/) |
-| [BV1iVoVBgERD](https://www.bilibili.com/video/BV1iVoVBgERD/) | 罗福莉（小米大模型团队负责人） | [ai-paradigm-shift](../ai-paradigm-shift/) |
+| [BV1YR5E6EE9o](https://www.bilibili.com/video/BV1YR5E6EE9o/) | 姚顺宇（Anthropic→Google DeepMind） | [ai-insider-research](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/ai-insider-research) |
+| [BV1nB3u6tERu](https://www.bilibili.com/video/BV1nB3u6tERu/) | 廖恒（华为半导体首席科学家） | [semiconductor-chip-insight](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/semiconductor-chip-insight) |
+| [BV1iVoVBgERD](https://www.bilibili.com/video/BV1iVoVBgERD/) | 罗福莉（小米大模型团队负责人） | [ai-paradigm-shift](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/ai-paradigm-shift) |
 
 ## 蒸馏信息
 
@@ -49,15 +49,10 @@
 
 ## 安装
 
-```bash
-# 将 SKILL.md 复制到你的 skills 目录
-cp SKILL.md ~/.claude/skills/
-# 或 wisp-science
-cp SKILL.md .wisp/skills/research-thinking-insights/
-```
+完整安装当前技能目录，具体步骤见本包入口文件及仓库 Wisp Science 安装说明。
 
 ## 相关技能
 
-- [ai-insider-research](../ai-insider-research/) — 原始访谈（姚顺宇），AI大模型训练前沿实战
-- [semiconductor-chip-insight](../semiconductor-chip-insight/) — 原始访谈（廖恒），芯片产业认知与架构设计
-- [ai-paradigm-shift](../ai-paradigm-shift/) — 原始访谈（罗福莉），AI范式巨变下的Agent时代
+- [ai-insider-research](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/ai-insider-research) — 原始访谈（姚顺宇），AI大模型训练前沿实战
+- [semiconductor-chip-insight](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/semiconductor-chip-insight) — 原始访谈（廖恒），芯片产业认知与架构设计
+- [ai-paradigm-shift](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/ai-paradigm-shift) — 原始访谈（罗福莉），AI范式巨变下的Agent时代

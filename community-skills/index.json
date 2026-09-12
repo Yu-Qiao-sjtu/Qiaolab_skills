@@ -1,0 +1,213 @@
+[
+  {
+    "name": "ai4asking",
+    "description": "审视用户提供的回答或科研论证，检查事实依据、推理链和隐含假设并提出针对性追问。用于明确的审视、质疑或追问请求，不用于普通执行任务。",
+    "author": "Yu Qiao / Yu-Qiao-sjtu",
+    "license": "MIT",
+    "tags": [
+      "general"
+    ],
+    "repository": "Yu-Qiao-sjtu/Qiaolab_skills",
+    "git_ref": "master",
+    "package_path": "skills/ai4asking",
+    "responsibilities": "把已有回答或论证中最影响判断的缺口转成可回答、可验证的追问。",
+    "when_to_use": "这段回答说相关性证明了因果关系，帮我找出关键假设并提出追问。",
+    "inputs": "待审视的原文或明确主张；可选：决策背景、用户已知事实、期望审查深度。",
+    "outputs": "按重要性排列的追问、各问题针对的原文主张与理由，以及需要补充的证据。",
+    "out_of_scope": "不自动接管代码修改、翻译或排版任务；不把未查证的主张判为已证伪，不要求每次回答都做哲学审查。",
+    "required_dependencies": [
+      "Text-capable model; Chinese comprehension",
+      "Readable supplied material; read tool for local input files"
+    ],
+    "optional_dependencies": [
+      "Write tool for user-requested project Markdown files",
+      "Vision or document extraction for supplied figures/scans, where applicable; otherwise text-only scope"
+    ],
+    "operation_boundary": "Default chat output; project files only when requested and approved by host. No automatic network, MCP, execution, installation or external submission.",
+    "supported_wisp": "Author declaration: Wisp Science 1.11.0; schema_version 1.",
+    "verified_wisp": null,
+    "known_limits": "Pinned parser and isolated package installation are testable; no real Wisp model task has been validated. Source viewpoints can be time-dependent.",
+    "feedback_url": "https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/issues"
+  },
+  {
+    "name": "ai-insider-research",
+    "description": "基于已收录的 AI 研究访谈方法论，分析训练研究的问题定义、消融和组织实践。用于解读该访谈或将其方法迁移到给定研究问题，不用于查询最新模型规格、公司人事或行情。",
+    "author": "Yu Qiao / Yu-Qiao-sjtu",
+    "license": "MIT",
+    "tags": [
+      "general"
+    ],
+    "repository": "Yu-Qiao-sjtu/Qiaolab_skills",
+    "git_ref": "master",
+    "package_path": "skills/ai-insider-research",
+    "responsibilities": "把访谈中的研究经验转成适用于当前问题的判断维度，并保留来源与时代边界。",
+    "when_to_use": "用姚顺宇访谈里的问题定义与消融思路，审视我这个模型实验计划。",
+    "inputs": "访谈解读问题，或用户的研究问题和约束；可选：新的原始材料。",
+    "outputs": "与问题相关的方法、来源定位、适用条件和可检验的下一步。",
+    "out_of_scope": "不把访谈观点当作当前行业事实；不自行训练模型、配置 GPU、联网调用 API 或承诺研究效果。",
+    "required_dependencies": [
+      "Text-capable model; Chinese comprehension",
+      "Readable supplied material; read tool for local input files"
+    ],
+    "optional_dependencies": [
+      "Write tool for user-requested project Markdown files",
+      "Vision or document extraction for supplied figures/scans, where applicable; otherwise text-only scope"
+    ],
+    "operation_boundary": "Default chat output; project files only when requested and approved by host. No automatic network, MCP, execution, installation or external submission.",
+    "supported_wisp": "Author declaration: Wisp Science 1.11.0; schema_version 1.",
+    "verified_wisp": null,
+    "known_limits": "Pinned parser and isolated package installation are testable; no real Wisp model task has been validated. Source viewpoints can be time-dependent.",
+    "feedback_url": "https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/issues"
+  },
+  {
+    "name": "ai-paradigm-shift",
+    "description": "使用已收录的 Agent 访谈方法论，分析用户给定的 Chat 到 Agent 工作流、反馈回路和组织协作设计。用于方法比较与方案评审，不用于预测 AGI 日期、查询最新公司动态或直接部署 Agent。",
+    "author": "Yu Qiao / Yu-Qiao-sjtu",
+    "license": "MIT",
+    "tags": [
+      "general"
+    ],
+    "repository": "Yu-Qiao-sjtu/Qiaolab_skills",
+    "git_ref": "master",
+    "package_path": "skills/ai-paradigm-shift",
+    "responsibilities": "帮助评估一个具体工作流何时需要 Agent、如何获得反馈、以及能力与环境之间的依赖。",
+    "when_to_use": "这个客服流程应该保持 Chat，还是做成有工具的 Agent？按访谈方法分析。",
+    "inputs": "待评估工作流、方案或访谈问题；可选：工具权限、成本和失败案例。",
+    "outputs": "工作流分析、关键假设、风险和小规模验证计划。",
+    "out_of_scope": "不把历史访谈观点包装成最新产品能力；不自动创建多 Agent、外部账号或部署服务。",
+    "required_dependencies": [
+      "Text-capable model; Chinese comprehension",
+      "Readable supplied material; read tool for local input files"
+    ],
+    "optional_dependencies": [
+      "Write tool for user-requested project Markdown files",
+      "Vision or document extraction for supplied figures/scans, where applicable; otherwise text-only scope"
+    ],
+    "operation_boundary": "Default chat output; project files only when requested and approved by host. No automatic network, MCP, execution, installation or external submission.",
+    "supported_wisp": "Author declaration: Wisp Science 1.11.0; schema_version 1.",
+    "verified_wisp": null,
+    "known_limits": "Pinned parser and isolated package installation are testable; no real Wisp model task has been validated. Source viewpoints can be time-dependent.",
+    "feedback_url": "https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/issues"
+  },
+  {
+    "name": "research-thinking-insights",
+    "description": "将跨领域访谈中的问题定义、系统排错和跨层思考方法用于用户给定的科研计划或失败结果。适用于课题审视与排错方案设计，不代替数据分析执行、文献检索或统计检验。",
+    "author": "Yu Qiao / Yu-Qiao-sjtu",
+    "license": "MIT",
+    "tags": [
+      "general",
+      "scientific-literature"
+    ],
+    "repository": "Yu-Qiao-sjtu/Qiaolab_skills",
+    "git_ref": "master",
+    "package_path": "skills/research-thinking-insights",
+    "responsibilities": "找出科研计划最关键的未知与可区分解释的下一步，帮助建立有反馈的研究迭代。",
+    "when_to_use": "这个实验连续三次没效果，帮我按问题定义和系统排错梳理下一步。",
+    "inputs": "研究目标、已有证据或失败现象；可选：实验条件、资源和时间约束。",
+    "outputs": "问题定义、证据与假设的区分、排错优先级和下一步验证计划。",
+    "out_of_scope": "不凭摘要式描述诊断实际实验根因；不编造对照结果，也不自动执行实验或计算。",
+    "required_dependencies": [
+      "Text-capable model; Chinese comprehension",
+      "Readable supplied material; read tool for local input files"
+    ],
+    "optional_dependencies": [
+      "Write tool for user-requested project Markdown files",
+      "Vision or document extraction for supplied figures/scans, where applicable; otherwise text-only scope"
+    ],
+    "operation_boundary": "Default chat output; project files only when requested and approved by host. No automatic network, MCP, execution, installation or external submission.",
+    "supported_wisp": "Author declaration: Wisp Science 1.11.0; schema_version 1.",
+    "verified_wisp": null,
+    "known_limits": "Pinned parser and isolated package installation are testable; no real Wisp model task has been validated. Source viewpoints can be time-dependent.",
+    "feedback_url": "https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/issues"
+  },
+  {
+    "name": "semiconductor-chip-insight",
+    "description": "用已收录的半导体访谈框架分析用户给定的软硬件协同、架构权衡和工程创新问题。用于方法学习与方案比较，不用于实时供应链调查、股票建议或芯片规格认证。",
+    "author": "Yu Qiao / Yu-Qiao-sjtu",
+    "license": "MIT",
+    "tags": [
+      "general"
+    ],
+    "repository": "Yu-Qiao-sjtu/Qiaolab_skills",
+    "git_ref": "master",
+    "package_path": "skills/semiconductor-chip-insight",
+    "responsibilities": "围绕用户场景分析软硬件协同、分层约束和工程方案的权衡。",
+    "when_to_use": "结合软硬件协同思路，比较这个加速器方案的几个设计取舍。",
+    "inputs": "具体工程问题、方案或访谈解读目标；可选：指标、预算、工艺与约束。",
+    "outputs": "约束与权衡分析、访谈来源、条件性建议及待验证指标。",
+    "out_of_scope": "不提供未经查证的最新工艺、产品规格或商业预测；不把类比当作硬件测量或投资依据。",
+    "required_dependencies": [
+      "Text-capable model; Chinese comprehension",
+      "Readable supplied material; read tool for local input files"
+    ],
+    "optional_dependencies": [
+      "Write tool for user-requested project Markdown files",
+      "Vision or document extraction for supplied figures/scans, where applicable; otherwise text-only scope"
+    ],
+    "operation_boundary": "Default chat output; project files only when requested and approved by host. No automatic network, MCP, execution, installation or external submission.",
+    "supported_wisp": "Author declaration: Wisp Science 1.11.0; schema_version 1.",
+    "verified_wisp": null,
+    "known_limits": "Pinned parser and isolated package installation are testable; no real Wisp model task has been validated. Source viewpoints can be time-dependent.",
+    "feedback_url": "https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/issues"
+  },
+  {
+    "name": "yonghegong-wish",
+    "description": "检查用户提供的目标、提示词或需求中的歧义，补齐约束、验收标准和反例。用于需求澄清与指令改写，不用于真实占卜、法律审查或保证愿望实现。",
+    "author": "Yu Qiao / Yu-Qiao-sjtu",
+    "license": "MIT",
+    "tags": [
+      "general"
+    ],
+    "repository": "Yu-Qiao-sjtu/Qiaolab_skills",
+    "git_ref": "master",
+    "package_path": "skills/yonghegong-wish",
+    "responsibilities": "用“指令被字面执行”的反例检查，帮助用户把模糊愿望改写为可验收的要求。",
+    "when_to_use": "这条需求只写了“越快越好”，帮我补成不会跑偏的可验收描述。",
+    "inputs": "原始目标、指令或需求；可选：预期结果、禁止事项与资源约束。",
+    "outputs": "歧义清单、改写版本、验收标准和可暴露误解的反例。",
+    "out_of_scope": "不将故事或评论案例视为超自然因果证据；不代替法律专业审查，不添加用户未要求的功能。",
+    "required_dependencies": [
+      "Text-capable model; Chinese comprehension",
+      "Readable supplied material; read tool for local input files"
+    ],
+    "optional_dependencies": [
+      "Write tool for user-requested project Markdown files",
+      "Vision or document extraction for supplied figures/scans, where applicable; otherwise text-only scope"
+    ],
+    "operation_boundary": "Default chat output; project files only when requested and approved by host. No automatic network, MCP, execution, installation or external submission.",
+    "supported_wisp": "Author declaration: Wisp Science 1.11.0; schema_version 1.",
+    "verified_wisp": null,
+    "known_limits": "Pinned parser and isolated package installation are testable; no real Wisp model task has been validated. Source viewpoints can be time-dependent.",
+    "feedback_url": "https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/issues"
+  },
+  {
+    "name": "paper-deconstruction",
+    "description": "对用户提供的科研论文正文、节选或图表进行证据与因果逻辑拆解、方法评估和机制风险审查。用于深入读论文、审稿分析或课题迁移，不用于文献订阅、自动全文获取或邮件推送。",
+    "author": "Yu Qiao / Yu-Qiao-sjtu",
+    "license": "MIT",
+    "tags": [
+      "scientific-literature"
+    ],
+    "repository": "Yu-Qiao-sjtu/Qiaolab_skills",
+    "git_ref": "master",
+    "package_path": "skills/paper-deconstruction",
+    "responsibilities": "将论文主张与证据对应，评估推理边界，并在请求时提出可检验的课题迁移方案。",
+    "when_to_use": "请只分析这个 Figure 3 是否支持作者声称的必要性。",
+    "inputs": "论文文本、可读取文件或实际图表；可选：指定模块、审稿关注点或研究方向。仅有链接时需用户提供内容或使用另行获准的检索工具。",
+    "outputs": "可追溯到页码、图号或原文位置的关键证据、推理缺口和验证建议；按需给出明确区分假设边的因果图。",
+    "out_of_scope": "不凭摘要假装读过正文；不把相关性等同因果或救援实验等同机制唯一；不编造数值、实验、参考文献或统计结果。",
+    "required_dependencies": [
+      "Text-capable model; Chinese comprehension",
+      "Readable supplied material; read tool for local input files"
+    ],
+    "optional_dependencies": [
+      "Write tool for user-requested project Markdown files",
+      "Vision or document extraction for supplied figures/scans, where applicable; otherwise text-only scope"
+    ],
+    "operation_boundary": "Default chat output; project files only when requested and approved by host. No automatic network, MCP, execution, installation or external submission.",
+    "supported_wisp": "Author declaration: Wisp Science 1.11.0; schema_version 1.",
+    "verified_wisp": null,
+    "known_limits": "Pinned parser and isolated package installation are testable; no real Wisp model task has been validated. Source viewpoints can be time-dependent.",
+    "feedback_url": "https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/issues"
+  }
+]

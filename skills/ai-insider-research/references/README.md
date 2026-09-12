@@ -50,10 +50,7 @@
 
 ## 安装
 
-```bash
-# 将 SKILL.md 复制到你的 skills 目录
-cp SKILL.md ~/.claude/skills/
-```
+完整安装当前技能目录，具体步骤见本包入口文件及仓库 Wisp Science 安装说明。
 
 ## 技能概览
 
@@ -72,4 +69,4 @@ cp SKILL.md ~/.claude/skills/
 
 ## 相关技能
 
-- [semiconductor-chip-insight](../semiconductor-chip-insight/) — 同系列访谈（华为廖恒），芯片产业认知与架构设计
+- [semiconductor-chip-insight](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/semiconductor-chip-insight) — 同系列访谈（华为廖恒），芯片产业认知与架构设计

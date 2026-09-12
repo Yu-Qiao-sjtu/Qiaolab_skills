@@ -6,3 +6,7 @@
 - Private qianlab-notebook-skill is not imported into this public repository.
 
 The source histories remain in archived repositories. Install individual complete directories from `skills/`. This migration does not modify global agent configuration.
+
+## Wisp authoring alignment
+
+Following consolidation, all seven active packages were adapted to the pinned Wisp Science authoring guide. Long original methods and source notes moved into package-local references; obsolete single-file installation instructions were replaced. Source snapshots are no longer byte-identical after this adaptation; the original revision references above remain available in Git history. See docs/WISP-STANDARD.md and docs/VALIDATION.md.

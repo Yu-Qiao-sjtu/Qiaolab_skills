@@ -3,9 +3,9 @@
 ## 源材料信息
 
 - **来源**：三场B站深度访谈的跨访谈科研方法论蒸馏
-  - 姚顺宇访谈（BV1YR5E6EE9o）→ [ai-insider-research](../ai-insider-research/)
-  - 廖恒访谈（BV1nB3u6tERu）→ [semiconductor-chip-insight](../semiconductor-chip-insight/)
-  - 罗福莉访谈（BV1iVoVBgERD）→ [ai-paradigm-shift](../ai-paradigm-shift/)
+  - 姚顺宇访谈（BV1YR5E6EE9o）→ [ai-insider-research](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/ai-insider-research)
+  - 廖恒访谈（BV1nB3u6tERu）→ [semiconductor-chip-insight](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/semiconductor-chip-insight)
+  - 罗福莉访谈（BV1iVoVBgERD）→ [ai-paradigm-shift](https://github.com/Yu-Qiao-sjtu/Qiaolab_skills/tree/master/skills/ai-paradigm-shift)
 - **领域**：跨领域科研方法论 / AI4Science研究思维
 - **定位**：从三位不同领域的顶尖实践者访谈中，提取面向AI4Science研究者的可迁移科研思维
 - **面向用户**：AI4Science研究者（生信分析、计算生物学、AI辅助科研）
